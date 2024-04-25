@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#log{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 600px;
+    width: 500px;
+    border: solid;
+    border-radius: 25px;
+}
+img[src="picture/loginicon.png"]{
+    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+#text{
+    display: inline-block;
+}
