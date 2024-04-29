@@ -72,33 +72,34 @@ img[src="picture/loginicon.png"]{
     border-radius: 50%;
 }
 
-#login-container {
+#registration-container {
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    margin: 0 auto; /* Center the container horizontally */
-    width: 300px; /* Set desired width */
-    height: 400px; /* Set desired height */
-    margin-top: 50px; /* Adjust as needed */
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#login-container img {
-    max-width: 100px;
-    border-radius: 50%;
-    margin-top: -50px;
+#registration-container h2 {
+    margin-bottom: 20px;
 }
-#login-container input {
-    width: 100%;
+
+#registration-container input {
+    width: calc(100% - 20px); /* Adjust for padding */
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
 }
-#login-container button {
-    width: 100%;
+
+#registration-container button {
+    width: calc(100% - 20px); /* Adjust for padding */
     padding: 10px;
     margin: 10px 0;
     background-color: #007bff;

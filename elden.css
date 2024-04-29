@@ -88,13 +88,30 @@ img[src="picture/loginicon.png"]{
 }
 #elinfo{
     display: inline-block;
-    color:#966919
+    color:#966919;
+    margin-left: 300px;
 }
 #top{
     text-align: center;
 }
 #rec{
     margin-left: 400px;
+    margin-bottom: 50px;
+}
+#p1{
+    text-align: center;
+}
+#p2{
+    text-align: center;
+}
+#p3{
+    text-align: center;
+}
+#p4{
+    text-align: center;
+}
+#p5{
+    text-align: center;
 }
 #down{
     color: aliceblue;
